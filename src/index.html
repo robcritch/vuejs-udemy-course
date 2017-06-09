@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<script type=text/javascript src="vue.js"></script>
+		<div id="app">
+		<h1 v-once>{{ title }}</h1>
+		<p>{{ sayHello() }} - <a v-bind:href="link">Google</a></p>
+		<hr>
+		<p v-html="finishedLink"></p>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
